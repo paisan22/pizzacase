@@ -4,27 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaBean.java" line="17" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccbfaa5b-0d51-4431-a2fb-5f0d05787b8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
-    <list id="e3846647-904f-466a-8774-b7a0e94ec332" name="Rejected commit: Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pizzaDelivery/ShoppingCartBeanTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/create_order.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/orders_overview.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/shopping_cart.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/template.xhtml" />
-    </list>
+    <list default="true" id="ccbfaa5b-0d51-4431-a2fb-5f0d05787b8b" name="Default" comment="" />
+    <list id="e3846647-904f-466a-8774-b7a0e94ec332" name="Rejected commit: Default" comment="" />
     <ignored path="PizzaCase.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1029,7 +1010,7 @@
       <workItem from="1477813711813" duration="15006000" />
       <workItem from="1477914535401" duration="6644000" />
       <workItem from="1478003854800" duration="8047000" />
-      <workItem from="1478023844068" duration="3639000" />
+      <workItem from="1478023844068" duration="3780000" />
     </task>
     <servers />
   </component>
@@ -1066,7 +1047,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33336000" />
+    <option name="totallyTimeSpent" value="33477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
