@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+
+<ui:composition template="template.xhtml">
+
+    <ui:define name="title">
+        Shoppingcard
+    </ui:define>
+
+    <ui:define name="header">
+        Shopping cart
+    </ui:define>
+
+    <ui:define name="content">
+
+        <h:form>
+        <h:dataTable id="pizzaTable"
+                styleClass="table table-bordered table-responsive"
+                value="#{shoppingCartBean.pizzaBeanList}"
+                var="t">
+            <h:column>
+                <f:facet name="header">Id</f:facet>
+                #{t.id}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Name</f:facet>
+                #{t.name}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Price</f:facet>
+                € #{t.price}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Delete</f:facet>
+                <h:commandLink value="Delete" action="#{shoppingCartBean.deletePizza(t)}" />
+            </h:column>
+
+        </h:dataTable>
+
+        </h:form>
+
+        <h:form p:class="form-inline">
+            <div class="form-group">
+                <h:inputText p:class="form-control" p:placeholder="Name..." value="#{pizzaBean.name}" />
+            </div>
+            <div class="form-group">
+                <h:inputText p:class="form-control" value="#{pizzaBean.price}" />
+            </div>
+
+            <h:commandButton p:class="btn btn-primary" value="add pizza" action="#{shoppingCartBean.addPizza(t)}">
+                <f:ajax execute="@form" render="pizzaTable" />
+            </h:commandButton>
+        </h:form>
+
+    </ui:define>
+
+</ui:composition>
+</html>
