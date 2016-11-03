@@ -26,7 +26,7 @@
     <column id="16" parent="12" name="PRICE">
       <data-type>DOUBLE(52)|8</data-type>
     </column>
-    <key id="17" parent="12" name="SQL161101143254330">
+    <key id="17" parent="12" name="SQL161102135210800">
       <name-surrogate>1</name-surrogate>
       <columns>ID</columns>
       <primary>1</primary>
@@ -38,7 +38,7 @@
     <column id="19" parent="13" name="SEQ_COUNT">
       <data-type>DECIMAL(15)|3</data-type>
     </column>
-    <key id="20" parent="13" name="SQL161101143254350">
+    <key id="20" parent="13" name="SQL161102135210820">
       <name-surrogate>1</name-surrogate>
       <columns>SEQ_NAME</columns>
       <primary>1</primary>

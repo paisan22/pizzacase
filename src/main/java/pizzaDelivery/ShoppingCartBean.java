@@ -2,7 +2,10 @@ package pizzaDelivery;
 
 import lombok.Getter;
 import lombok.Setter;
+
+import javax.enterprise.context.RequestScoped;
 import javax.enterprise.context.SessionScoped;
+import javax.faces.bean.ViewScoped;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -14,7 +17,7 @@ import java.util.List;
 
 @Getter
 @Setter
-@SessionScoped
+@RequestScoped
 @Named
 public class ShoppingCartBean implements Serializable {
     private PizzaService pizzaService;
@@ -22,14 +25,22 @@ public class ShoppingCartBean implements Serializable {
 
     public ShoppingCartBean() {
         this.pizzaService = new PizzaService();
-        this.pizzaBeanList = this.pizzaService.getPizzas();
+        updateList();
     }
 
     public void deletePizza(final PizzaBean pizzaBean) {
-        this.pizzaBeanList.removeIf(e -> e.equals(pizzaBean));
+        pizzaService.delete(pizzaBean.getId());
     }
 
     public void addPizza(final PizzaBean pizzaBean) {
         this.pizzaService.createPizza(pizzaBean.getName(), pizzaBean.getPrice());
+    }
+
+    public void updatePizza(PizzaBean pizzaBean) {
+        this.pizzaService.update(pizzaBean);
+    }
+
+    public void updateList() {
+        this.pizzaBeanList = this.pizzaService.getPizzas();
     }
 }

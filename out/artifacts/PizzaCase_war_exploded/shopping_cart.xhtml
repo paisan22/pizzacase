@@ -19,44 +19,34 @@
 
     <ui:define name="content">
 
-        <h:form>
-        <h:dataTable id="pizzaTable"
-                styleClass="table table-bordered table-responsive"
-                value="#{shoppingCartBean.pizzaBeanList}"
-                var="t">
-            <h:column>
-                <f:facet name="header">Id</f:facet>
-                #{t.id}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Name</f:facet>
-                #{t.name}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Price</f:facet>
-                € #{t.price}
-            </h:column>
-
-            <h:column>
-                <f:facet name="header">Delete</f:facet>
-                <h:commandLink value="Delete" action="#{shoppingCartBean.deletePizza(t)}" />
-            </h:column>
-
-        </h:dataTable>
-
+        <h:form id="form" p:class="form-inline">
+            <h:panelGroup id="tablePanel">
+                <h:dataTable styleClass="table table-bordered table-responsive"
+                             value="#{shoppingCartBean.pizzaBeanList}" var="t">
+                    <h:column>
+                        <f:facet name="header">Id</f:facet>
+                        #{t.id}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Name</f:facet>
+                        #{t.name}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Price</f:facet>
+                        € #{t.price}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Delete</f:facet>
+                        <h:commandLink value="Delete">
+                            <f:ajax listener="#{shoppingCartBean.deletePizza(t)}" render="@form" />
+                        </h:commandLink>
+                    </h:column>
+                </h:dataTable>
+            </h:panelGroup>
         </h:form>
 
-        <h:form p:class="form-inline">
-            <div class="form-group">
-                <h:inputText p:class="form-control" p:placeholder="Name..." value="#{pizzaBean.name}" />
-            </div>
-            <div class="form-group">
-                <h:inputText p:class="form-control" value="#{pizzaBean.price}" />
-            </div>
-
-            <h:commandButton p:class="btn btn-default" value="add pizza" action="#{shoppingCartBean.addPizza(t)}">
-                <f:ajax execute="@form" render="pizzaTable" />
-            </h:commandButton>
+        <h:form>
+            <h:commandLink type="button" p:class="btn btn-primary" value="new pizza" action="create_pizza" />
         </h:form>
 
     </ui:define>

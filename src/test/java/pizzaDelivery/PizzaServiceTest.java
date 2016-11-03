@@ -24,7 +24,23 @@ public class PizzaServiceTest {
 
     @Test
     public void createPizza() throws Exception {
-        pizzaService.createPizza("pizza1", 10);
+
+        pizzaService.createPizza("pizza1", 8);
+        pizzaService.createPizza("pizza2", 7);
+        pizzaService.createPizza("pizza3", 11);
+
+    }
+
+    @Test
+    public void delete() {
+        pizzaService.delete(1);
+    }
+
+    @Test
+    public void update() {
+        PizzaBean pizzaBean = new PizzaBean("mango", 400);
+        pizzaBean.setId(6);
+        pizzaService.update(pizzaBean);
     }
 
     @AfterClass
