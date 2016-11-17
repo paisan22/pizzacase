@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="PizzaCase:war exploded">
+  <artifact type="exploded-ear" name="PizzaCase:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="PizzaCase/web/Web" />

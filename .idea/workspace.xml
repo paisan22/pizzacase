@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaBean.java" line="17" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/JPA/Pizza.java" line="13" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccbfaa5b-0d51-4431-a2fb-5f0d05787b8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/create_pizza.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/update_pizza.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0994cda4-9ecd-4df3-b9e6-50a4970b6607.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0994cda4-9ecd-4df3-b9e6-50a4970b6607.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/JPA/Pizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/ConfigBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/web/ShoppingCart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/PizzaServiceBeanTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/0994cda4-9ecd-4df3-b9e6-50a4970b6607.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pizzaDelivery/ShoppingCartBeanTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/PizzaCase_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/PizzaCase_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PizzaCase.iml" afterPath="$PROJECT_DIR$/PizzaCase.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded/create_pizza.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded/create_pizza.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded/shopping_cart.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/PizzaCase_war_exploded/shopping_cart.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java" afterPath="$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/create_pizza.xhtml" afterPath="$PROJECT_DIR$/web/create_pizza.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shopping_cart.xhtml" afterPath="$PROJECT_DIR$/web/shopping_cart.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/update_pizza.xhtml" afterPath="$PROJECT_DIR$/web/update_pizza.xhtml" />
     </list>
     <list id="e3846647-904f-466a-8774-b7a0e94ec332" name="Rejected commit: Default" comment="" />
     <ignored path="PizzaCase.iws" />
@@ -45,7 +62,21 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="Derby (Remote) - pizzaServiceDB@localhost" />
+        <option name="myItemId" value="Derby (Remote) - sun-appserv-samples@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Derby (Remote) - sun-appserv-samples@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PIZZA" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -55,17 +86,124 @@
     <favorites_list name="PizzaCase" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PizzaServiceInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APP.PIZZA" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/f54a58d3/1afc4988-3fe2-4267-832d-79696cec0763/APP.PIZZA">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PizzaServiceBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/ConfigBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/JPA/Pizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1605">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/web/ShoppingCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping_cart.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/shopping_cart.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="jsf" />
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
-        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -79,38 +217,63 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/ConfigBean.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/shoppingcard.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/resources/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/resources/js/bootstrap.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/resources/js/jquery.js" />
-        <option value="$PROJECT_DIR$/web/orders_overview.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/GetPrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaPrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCardBean.java" />
-        <option value="$PROJECT_DIR$/web/shoppingcard.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/resources/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/src/test/java/PizzaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/create_order.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaBean.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/ShoppingCartBeanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Order/OrderBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Order/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/Order/OrderServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Pizza/PizzaService.java" />
         <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java" />
-        <option value="$PROJECT_DIR$/web/template.xhtml" />
-        <option value="$PROJECT_DIR$/web/create_pizza.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Pizza/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Pizza/PizzaServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Domain/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Domain/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Domain/ShoppingCartBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/Pizza/PizzaServiceBeanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/Domain/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Domain/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/AbstractService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/CustomerServiceBeanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/OrderServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/OrderServiceBeanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/SOAP/RandService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/SOAP/RandImplTest.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/SOAP/RandPublisher.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/SOAP/RandImpl.java" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/derby/derbyclient/10.12.1.1/derbyclient-10.12.1.1.jar!/org/apache/derby/jdbc/ClientDriver.class" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Interceptor/TracelogInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/SingletonBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/TimerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/WorkerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/ShoppingCartBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/CustomerServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/webservice/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Entity/Customer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/EJB/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Entity/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/AbstractBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/Service.java" />
         <option value="$PROJECT_DIR$/web/shopping_cart.xhtml" />
-        <option value="$PROJECT_DIR$/web/update_pizza.xhtml" />
-        <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/PizzaServiceBeanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/web/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzaDelivery/JPA/Pizza.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -123,8 +286,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -168,8 +331,24 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -196,7 +375,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,52 +396,252 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizzaDelivery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizzaDelivery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizzaDelivery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JPA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEE/javaee-tutorial/examples/case-studies/dukes-bookstore/pom.xml" />
-    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Derby (Remote)" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Derby (Remote)&#10;DDL Data Source&#10;Derby (Embedded)" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="pizzaDelivery" />
+      <recent name="pizzaDelivery.Service" />
+      <recent name="pizzaDelivery.SOAP" />
+      <recent name="pizzaDelivery.Domain" />
+      <recent name="pizzaDelivery.Pizza" />
+      <recent name="pizzaDelivery.Order" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pizzaDelivery.Service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/src/main/resources/css" />
     </key>
   </component>
   <component name="RunManager" selected="GlassFish Server.GlassFish 4.1.1">
-    <configuration default="false" name="PizzaServiceTest.createPizza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CustomerServiceBeanTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pizzaDelivery.*" />
+          <option name="PATTERN" value="pizzaDelivery.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="PizzaCase" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pizzaDelivery" />
-      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="createPizza" />
+      <option name="PACKAGE_NAME" value="pizzaDelivery.Service" />
+      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.Service.CustomerServiceBeanTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PizzaServiceBeanTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pizzaDelivery.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PizzaCase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pizzaDelivery.Service" />
+      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.Service.PizzaServiceBeanTest" />
+      <option name="METHOD_NAME" value="getAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -274,45 +655,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PizzaServiceBeanTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pizzaDelivery.*" />
+          <option name="PATTERN" value="pizzaDelivery.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="PizzaCase" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pizzaDelivery" />
-      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.PizzaServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShoppingCartBeanTest.createPizza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pizzaDelivery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PizzaCase" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pizzaDelivery" />
-      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.ShoppingCartBeanTest" />
-      <option name="METHOD_NAME" value="createPizza" />
+      <option name="PACKAGE_NAME" value="pizzaDelivery.Service" />
+      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.Service.PizzaServiceBeanTest" />
+      <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -326,19 +681,39 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PizzaServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pizzaDelivery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PizzaCase" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PizzaServiceBeanTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pizzaDelivery.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="PizzaCase" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pizzaDelivery" />
-      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="pizzaDelivery.Service" />
+      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.Service.PizzaServiceBeanTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -350,43 +725,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PizzaServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pizzaDelivery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PizzaCase" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pizzaDelivery" />
-      <option name="MAIN_CLASS_NAME" value="pizzaDelivery.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -632,6 +970,20 @@
       <setting name="launchBrowser" value="true" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="serverGroup" value="" />
+          <option name="transportHostId" value="" />
+          <server-group />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -910,21 +1262,53 @@
         </option>
       </method>
     </configuration>
-    <list size="6">
+    <configuration default="false" name="wildfly" type="JBossConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="JBoss 10.2.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="stagingRemotePath" value="" />
+          <option name="transportHostId" value="" />
+          <option name="transportStagingTarget">
+            <TransportTarget>
+              <option name="id" value="20069c18-1468-4efa-beed-50fc7e452a9b" />
+              <id>20069c18-1468-4efa-beed-50fc7e452a9b</id>
+            </TransportTarget>
+          </option>
+          <transport-target>
+            <TransportTarget>
+              <option name="id" value="20069c18-1468-4efa-beed-50fc7e452a9b" />
+              <id>20069c18-1468-4efa-beed-50fc7e452a9b</id>
+            </TransportTarget>
+          </transport-target>
+          <staging-path />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49656" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="GlassFish Server.GlassFish 4.1.1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest.createPizza" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCartBeanTest.createPizza" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest.delete" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest.update" />
+      <item index="1" class="java.lang.String" itemvalue="JBoss Server.wildfly" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerServiceBeanTest.create" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PizzaServiceBeanTest.getAll" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PizzaServiceBeanTest.create" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.PizzaServiceBeanTest.add" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest.createPizza" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest.update" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest.delete" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCartBeanTest.createPizza" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PizzaServiceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PizzaServiceBeanTest.add" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PizzaServiceBeanTest.create" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerServiceBeanTest.create" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PizzaServiceBeanTest.getAll" />
       </list>
     </recent_temporary>
   </component>
@@ -948,80 +1332,108 @@
       <workItem from="1478075371101" duration="136000" />
       <workItem from="1478082242336" duration="297000" />
       <workItem from="1478090174397" duration="11497000" />
+      <workItem from="1478161290800" duration="1408000" />
+      <workItem from="1478179743344" duration="3217000" />
+      <workItem from="1478380419340" duration="23008000" />
+      <workItem from="1478506940328" duration="2314000" />
+      <workItem from="1478606626169" duration="9000" />
+      <workItem from="1478679558328" duration="778000" />
+      <workItem from="1478690401276" duration="2376000" />
+      <workItem from="1478777434559" duration="8991000" />
+      <workItem from="1478992973680" duration="9169000" />
+      <workItem from="1479115096161" duration="6248000" />
+      <workItem from="1479132569749" duration="2943000" />
+      <workItem from="1479207038044" duration="15279000" />
+      <workItem from="1479283479767" duration="2728000" />
+      <workItem from="1479292702518" duration="57000" />
+      <workItem from="1479294215123" duration="8613000" />
+      <workItem from="1479320576610" duration="11701000" />
+      <workItem from="1479370212473" duration="1114000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 15h 40m 04s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 14m 18s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 15h 40m 12s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 14m 46s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 21h 38m 31s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 15m 55s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 21h 39m 10s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 19m 36s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 21h 40m 18s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 19m 42s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 21h 40m 50s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 20m 06s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 21h 42m 21s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 23m 00s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_createPizza - 2016.11.02 at 21h 57m 21s.xml">
-      <configuration name="PizzaServiceTest.createPizza" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 24m 15s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_update - 2016.11.02 at 15h 40m 35s.xml">
-      <configuration name="PizzaServiceTest.update" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 26m 52s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest_update - 2016.11.02 at 15h 42m 01s.xml">
-      <configuration name="PizzaServiceTest.update" configurationId="JUnit" />
+    <history-entry file="PizzaServiceBeanTest_add - 2016.11.16 at 23h 29m 57s.xml">
+      <configuration name="PizzaServiceBeanTest.add" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54361000" />
+    <option name="totallyTimeSpent" value="154314000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44356436" sideWeight="0.5037274" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16633664" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21512248" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48910892" sideWeight="0.5122471" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27128714" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18383405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920128" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18955651" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44356436" sideWeight="0.49627262" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44257426" sideWeight="0.49627262" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43465346" sideWeight="0.4968051" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30120483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17305644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54578316" sideWeight="0.4877529" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30120483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24606581" sideWeight="0.6069114" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24606581" sideWeight="0.39308855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24606581" sideWeight="0.6069114" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1040,7 +1452,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1049,303 +1461,213 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/shopping_cart.xhtml">
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.ORDER_CUSTOMER" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/SOAP/RandPublisher.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/SOAP/RandImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/SOAP/RandService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/SOAP/RandImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/OrderServiceBeanTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/OrderServiceBean.java" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.SEQUENCE" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.CUSTOMER" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.ORDER_PIZZA" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/derby/derbyclient/10.12.1.1/derbyclient-10.12.1.1.jar!/META-INF/services/java.sql.Driver">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/derby/derbyclient/10.12.1.1/derbyclient-10.12.1.1.jar!/org/apache/derby/jdbc/ClientDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/shopping_cart.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/shopping_cart.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f54a58d3/0994cda4-9ecd-4df3-b9e6-50a4970b6607/APP.PIZZABEAN">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/shopping_cart.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/web/resources/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="4890" selection-start-line="10" selection-start-column="4890" selection-end-line="10" selection-end-column="4890" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/js/jquery.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/derby/derbyclient/10.12.1.1/derbyclient-10.12.1.1.jar!/org/apache/derby/jdbc/ClientDriver40.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="1006" selection-start-line="8" selection-start-column="1006" selection-end-line="8" selection-end-column="1006" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaName.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaPrice.java" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.PIZZA" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/TimerBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/SingletonBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/WorkerBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Interceptor/TracelogInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Bean/ShoppingCartBean.java" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.PIZZA" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.PIZZA" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.PIZZA" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.PIZZA" />
+    <entry file="dbDummy://dbtable:/f54a58d3/fb63172f-2d38-4348-8923-a995b39b719e/APP.PIZZA" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3661ba94-d0f2-4dc9-b703-79d1ba54bde8/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9345">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PizzaTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/CustomerServiceBeanTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/CustomerServiceBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Entity/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Entity/Order.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1afc4988-3fe2-4267-832d-79696cec0763/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/EJB/ConfigBean.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="-417">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0994cda4-9ecd-4df3-b9e6-50a4970b6607/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/create_order.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/ShoppingCartBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f54a58d3/0994cda4-9ecd-4df3-b9e6-50a4970b6607/APP.SEQUENCE">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/AbstractBean.java" />
+    <entry file="file://$PROJECT_DIR$/META-INF/application.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/glassfish-ejb-jar.xml" />
+    <entry file="uml://Persistence/JavaeeElement:/f54a58d3/PizzaService/PizzaCase/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <filtering enabled="true" />
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/f54a58d3/PizzaService/PizzaCase/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="" y="">Pizza#file:///Users/paisanrietbroek/Documents/school 2016-2017/minor/blok02/PizzaCase/src/main/java/pizzaDelivery/JPA/Pizza.java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="67.0" y="48.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Embeddables</Category>
+            <Category>Properties</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaBean.java">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-pizzaDelivery.Service.PizzaServiceBeanTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-1527">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/f54a58d3/0994cda4-9ecd-4df3-b9e6-50a4970b6607/APP.PIZZABEAN">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/pizzaDelivery.Service.PizzaServiceBeanTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/orders_overview.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/Service/PizzaServiceBeanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pizzaDelivery/PizzaServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/template.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/PizzaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/ShoppingCartBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/create_pizza.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1478123224000" expanded="true" signature="977:1088" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/update_pizza.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/shopping_cart.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="116" selection-start-line="44" selection-start-column="116" selection-end-line="44" selection-end-column="116" />
+        <state relative-caret-position="322">
+          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/PizzaServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/web/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f54a58d3/1afc4988-3fe2-4267-832d-79696cec0763/APP.PIZZA">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/Service/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzaDelivery/JPA/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1355,7 +1677,14 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
           <last-edited>PizzaCase:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
@@ -1404,7 +1733,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA|PizzaCase</last-edited>
+          <last-edited>EJB|PizzaCase</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1432,7 +1761,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.32107842" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1450,5 +1779,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install" />
   </component>
 </project>

@@ -22,7 +22,7 @@
         <h:form id="form" p:class="form-inline">
             <h:panelGroup id="tablePanel">
                 <h:dataTable styleClass="table table-bordered table-responsive"
-                             value="#{shoppingCartBean.pizzaBeanList}" var="t">
+                             value="#{shoppingCart.pizzaServiceBean.getAll()}" var="t">
                     <h:column>
                         <f:facet name="header">Id</f:facet>
                         #{t.id}
@@ -35,19 +35,13 @@
                         <f:facet name="header">Price</f:facet>
                         € #{t.price}
                     </h:column>
-                    <h:column>
-                        <f:facet name="header">Delete</f:facet>
-                        <h:commandLink value="Delete">
-                            <f:ajax listener="#{shoppingCartBean.deletePizza(t)}" render="@form" />
-                        </h:commandLink>
-                    </h:column>
                 </h:dataTable>
             </h:panelGroup>
         </h:form>
 
-        <h:form>
-            <h:commandLink type="button" p:class="btn btn-primary" value="new pizza" action="create_pizza" />
-        </h:form>
+        <!--<h:form>-->
+            <!--<h:commandLink type="button" p:class="btn btn-primary" value="singleton test" action="#{shoppingCartBean.testSingleton}" />-->
+        <!--</h:form>-->
 
     </ui:define>
 

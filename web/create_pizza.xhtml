@@ -21,14 +21,14 @@
 
         <h:form>
             <div class="form-group">
-                <h:inputText p:placehoder="Pizza name..." value="#{pizzaBean.name}" />
+                <h:inputText p:placehoder="Pizza name..." value="#{pizza.name}" />
             </div>
             <div class="form-group">
-                <h:inputText value="#{pizzaBean.price}" />
+                <h:inputText value="#{pizza.price}" />
             </div>
 
             <h:commandLink type="submit" value="Add" p:class="btn btn-primary"
-                             action="shopping_cart" actionListener="#{shoppingCartBean.addPizza(pizzaBean)}" />
+                             action="shopping_cart" actionListener="#{shoppingCartBean.addPizza(pizza)}" />
         </h:form>
 
     </ui:define>

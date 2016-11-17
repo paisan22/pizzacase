@@ -6,8 +6,8 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
       xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
-<ui:composition template="template.xhtml"
->
+
+<ui:composition template="template.xhtml">
 
     <ui:define name="title">
         Create pizza
@@ -20,10 +20,15 @@
     <ui:define name="content">
 
         <h:form>
-            <h:inputText p:placehoder="Pizza name..." value="#{pizzaBean.name}" />
-            <h:inputText value="#{pizzaBean.price}" />
+            <div class="form-group">
+                <h:inputText p:placehoder="Pizza name..." value="#{pizza.name}" />
+            </div>
+            <div class="form-group">
+                <h:inputText value="#{pizza.price}" />
+            </div>
+
             <h:commandLink type="submit" value="Add" p:class="btn btn-primary"
-                             action="shopping_cart" actionListener="#{shoppingCartBean.addPizza(pizzaBean)}" />
+                             action="shopping_cart" actionListener="#{shoppingCartBean.addPizza(pizza)}" />
         </h:form>
 
     </ui:define>
